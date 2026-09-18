@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="..\css\general.css">
     <link rel="stylesheet" href="..\css\header.css">
      <link rel="stylesheet" href="..\css\sidebar.css">
+  </head>
     <body>
-      <div class="header"> 
+      <header class="header"> 
         <div class="left-section"> 
           
           <img class="hamburger-menu"src="..\Icons\hamburger-menu.svg">
@@ -25,7 +26,7 @@
             <img class="search-icon"src="..\Icons\search.svg"> 
             <div class="tooltip"> Search </div>
           </button>
-
+          <! --Put position absolute inside position relative-->
           <button class="voice-search-button">
             <img class="voice-search-icon"src="..\Icons\voice-search-icon.svg">
             <div class="tooltip"> Search with your voice </div>
@@ -52,11 +53,11 @@
 
         </div>
         
-      </div>
+      </header>
 
         
 
-      <div class="sidebar">
+      <nav class="sidebar">
           <div class ="sidebar-link"> 
             <img src="..\Icons\home.svg">
             <div> Home </div>
@@ -81,34 +82,29 @@
              <img src="..\Icons\library.svg">
              <div> Library </div>
           </div>      
-          
-      </div>
-      
-      <div class="video-grid">
-        <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnail"src="..\Thumbnails\thumbnail-1.webp"> 
-          <div class="video-time"> 14:20 </div>
+        </nav>
+
+      <main> 
+        <section class="video-grid">
+          <div class="video-preview">
+            <div class="thumbnail-row">
+            <img class="thumbnail"src="..\Thumbnails\thumbnail-1.webp"> 
+            <div class="video-time"> 14:20 </div>
      
-        </div>
-        <div class="video-info-grid">
-          <div class="channel-picture"> 
-            <img class="profile"src="..\Profiles\profile-1.jpeg">
-             
           </div>
+          <div class="video-info-grid">
+            <div class="channel-picture"> 
+              <img class="profile"src="..\Profiles\profile-1.jpeg">
+             
+            </div>
           <div class="video-info"> 
             <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai</p>
             <p class ="video-author"> Marques Brownlee</p>
             <p class="video-stats"> 3.4M views • 6 months ago</p>
           </div>
-           
-          
         </div>
-        
-        
       </div>
 
-      
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail"src="..\Thumbnails\thumbnail-2.webp"> 
@@ -344,14 +340,9 @@
             <p class ="video-author"> TED-Ed</p>
             <p class="video-stats"> 12M views • 5 years ago</p>
           </div>
-           
-          
+         </div>
         </div>
-        
-        
       </div>
-      </div>
-
+      </main>
       </body>
-  </head>
 </html>
