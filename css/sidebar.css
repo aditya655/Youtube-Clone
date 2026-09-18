@@ -30,7 +30,5 @@
 }
 
 .sidebar-link div{
-  font-family:Roboto, Arial;
-  font-size:10px;
-
+  font:10px Roboto, Arial;
 }

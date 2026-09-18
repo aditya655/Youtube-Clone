@@ -4,11 +4,8 @@
       }
       
       .video-title{
-        margin-top: 0;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom:10px;
+        margin: 0 0 10px 0;
+        font: 500 14px/20px Roboto, Arial;
       }
 
       .video-info-grid{
@@ -62,13 +59,9 @@
       
 
       .video-time{
-        font-family: Roboto, Arial;
-        font-size:12px;
+        font:500 12px Roboto, Arial;
         font-weight:500;
-        padding-left:4px;
-        padding-right:4px;
-        padding-top:4px;
-        padding-bottom:4px;
+        padding:4px;
         border-radius:2px;
         background-color: black;
         color:white;
