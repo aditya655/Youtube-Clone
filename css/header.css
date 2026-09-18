@@ -50,7 +50,7 @@
 }
 
 .search-bar::placeholder{
-  font: 16px 'Roboto', Arial;
+  font-size: 16px 
 }
 
 .search-button{
@@ -81,7 +81,7 @@
   color:white;
   padding: 4px 8px;
   border-radius:2px;
-  font:12px Roboto, Arial;
+  font-size:12px;
   bottom:-30px;
   opacity: 0;
   transition: opacity 0.15s;
@@ -110,11 +110,6 @@
   background-color: rgb(245,245,245);
 }
 
-.voice-search-icon{
-  height: 24px;
- 
-}
-
 
 .right-section{
   
@@ -128,7 +123,7 @@
 
 
 
-.upload-icon, .youtube-apps-icon, .notifications-icon{
+.upload-icon, .youtube-apps-icon, .notifications-icon, .voice-search-icon{
   height: 24px;
  
 }
@@ -144,7 +139,7 @@
   right:-5px;
   background-color: rgb(200,0,0);
   color:white;
-  font:11px Roboto, Arial;
+  font-size:11px;
   padding: 2px 5px;
   border-radius: 10px;;
 }

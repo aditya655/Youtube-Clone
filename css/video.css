@@ -36,6 +36,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
         row-gap: 40px;
+        font:500 12px inherit;
       }
 
       @media (max-width: 750px){
@@ -59,8 +60,8 @@
       
 
       .video-time{
-        font:500 12px Roboto, Arial;
-        font-weight:500;
+       
+        font: 500 12px Roboto, Arial;
         padding:4px;
         border-radius:2px;
         background-color: black;
